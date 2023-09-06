@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(rgb(77 95 201), rgb(0, 0, 0));
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: auto;
+}
+
+.app-header {
+  text-align: center;
+  background-color:rgb(77 95 201);
+  color: white;
+  width: 100%;
+  font-style: italic;
+}
+
+.app-container {
+  margin-top: 50px; /* 100% of the viewport height */
+  
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+}
+
+.room label {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.room input {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #3b5998;
+  border-radius: 6px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+}
+.room button {
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.room button:hover{
+    background-color: rgb(18, 63, 25);
+}
+
+.sign-out {
+  margin-top: 50px;
+}
+
